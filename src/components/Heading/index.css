@@ -1,0 +1,32 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+.heading {
+    margin: 48px;
+}
+
+.heading--1 {
+    font-size: 48px;
+}
+
+.heading--2 {
+    font-size: 32px;
+}
+
+.heading--3 {
+    font-size: 24px
+;
+}
+
+.heading--4 {
+    font-size: 20px
+    ;
+}
+
+.heading--5 {
+    font-size: 16px;
+}
+
+.heading--6 {
+    font-size:14px;
+}

@@ -1,0 +1,48 @@
+.custom-accordion {
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.accordion-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #f9f9f9;
+}
+
+.accordion-toggle {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.accordion-content {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
+
+.custom-btn {
+    padding: 0.5em 1em;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.custom-btn--primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+.custom-btn--primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.custom-btn.disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+    box-shadow: none;
+}
